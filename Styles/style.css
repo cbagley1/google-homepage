@@ -5,10 +5,6 @@
     margin-right: auto;
     margin-top: 2.5in;
 }
-#nine-dots {
-    top: 5px
-
-}
 #about {
    font-style: arial;
    margin-left: 25px;
@@ -17,13 +13,36 @@
     font-style: arial;
     margin-left: 20px;
 }
+#top-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
 #gmail {
     font-style: arial;
     margin-right: 20px;
-    float: right;
+
 }
 #images {
     font-style: arial;
-    margin-right: 180px;
-    float: right;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+/* #search-bar {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid grey;
+    width: 60%;
+    background: #f1f1f1;
+} */
+#center{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height:100vh;
+
 }
