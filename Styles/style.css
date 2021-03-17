@@ -8,10 +8,16 @@
 #about {
    font-style: arial;
    margin-left: 25px;
+   color:rgb(75, 73, 73);
+    text-decoration: none;
+    text-transform:none;
 }
 #store {
     font-style: arial;
     margin-left: 20px;
+    color:rgb(75, 73, 73);
+    text-decoration: none;
+    text-transform:none;
 }
 #top-right {
     display: flex;
@@ -21,10 +27,15 @@
 #gmail {
     font-style: arial;
     margin-right: 20px;
-
+    color:rgb(75, 73, 73);
+    text-decoration: none;
+    text-transform:none;
 }
 #images {
     font-style: arial;
+    color:rgb(75, 73, 73);
+    text-decoration: none;
+    text-transform:none;
 }
 
 #header{
@@ -34,7 +45,8 @@
 #search input {
     padding: 10px;
     font-size: 16px;
-    border: 1px solid grey;
+    border: 1px solid rgb(206, 202, 202);;
+    border-radius: 25px;
     width: 500px;
     background-color: #f1f1f1;
 } 
@@ -43,11 +55,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-height:100vh;
+height:80vh;
 
 }
 #nine-dots{
-    opacity: 0.6s;
+    opacity: 50%;
 }
 #search img{
     position:relative;
@@ -57,20 +69,34 @@ height:100vh;
 #search-button{
     padding: 10px;
     font-size: 12px;
-    border: 1px solid grey;
+    border: 1px solid rgb(206, 202, 202);
     background-color: #f1f1f1;
 }
 #lucky-button{
     padding: 10px;
     font-size: 12px;
-    border: 1px solid grey;
+    border: 1px solid rgb(206, 202, 202);
     background-color: #f1f1f1;
 }
 #footer{
     text-align: center;
+    color:rgb(104, 101, 101);
     font-style: arial;
-    margin-bottom: 40px;
-    background-color:rgb(199, 189, 189);
+    margin-bottom: 0px;
+    background-color:rgb(240, 240, 240);
     padding-top: 15px;
-    padding-bottom: 50px;
+    padding-bottom: 65px;
+}
+#sign-in{
+    color:white;
+    background-color:rgb(54, 123, 228);
+    padding: 10px;
+    width: 95px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+#leaf {
+    padding-right: 10px;
+    width: 15px;
+    height: 15px;
 }
